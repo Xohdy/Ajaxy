@@ -1,4 +1,4 @@
-Jaxy
+Ajaxy
 ========
 
 Simple small ajax library.
@@ -13,24 +13,24 @@ support for older browsers
 ## Installing
 
 ```html
-<script src="/jaxy.js"></script>
+<script src="/ajaxy.js"></script>
 ```
 
 ## Use
 
 ```javascript
-new Jaxy({url:"/path"}).send();
+new ajaxy({url:"/path"}).send();
 ```
 
 ```javascript
-new Jaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send();
+new ajaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send();
 ```
 ```javascript
-new Jaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send({name:"Xohdy",age:"27"});
+new ajaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send({name:"Xohdy",age:"27"});
 ```
 
 ```javascript
-var ajx = new Jaxy();
+var ajx = new ajaxy();
 ajs.url("/path")
 ajs.onSuccess((d)=>{alert(d)})
 ajs.onProcessing(()=>{console.log("Processing")})
