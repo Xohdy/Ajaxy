@@ -27,6 +27,7 @@ ajs.onReceived(()=>{console.log("Received")})
 ajs.onConnected(()=>{console.log("connected")})
 ajs.onFail((d)=>{alert(d)})
 ajs.send({name:"Xohdy",age:"27"})
+```
 
 ## Documentation
 
