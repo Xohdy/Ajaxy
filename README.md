@@ -19,6 +19,17 @@ support for older browsers
 ## Use
 
 ```javascript
+new Jaxy({url:"/path"}).send();
+```
+
+```javascript
+new Jaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send();
+```
+```javascript
+new Jaxy({url:"/path" , onSuccess : (d)=>{alert(d)} }).send({name:"Xohdy",age:"27"});
+```
+
+```javascript
 var ajx = new Jaxy();
 ajs.url("/path")
 ajs.onSuccess((d)=>{alert(d)})
