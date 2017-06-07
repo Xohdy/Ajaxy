@@ -1,4 +1,4 @@
-class Jaxy {
+class Ajaxy {
 	constructor(parms) {
 		parms = parms || {};
 		var model = {
